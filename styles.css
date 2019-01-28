@@ -8,10 +8,51 @@ body {
     background-repeat: no-repeat;
 }
 
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.wrapper > div {
+
+    
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 12px;
+  }
+
+  .wrapper img {
+      width: 50%;
+  }
 
 
 
+  .wrapper button {
+      
+      width: 40%;
+      border-radius: 35px;
+      padding: 15px;
+      border: none;
+      background-color: white;
+      box-shadow: 2px 2px 5px darkgray;
+  }
 
+  @media screen and (min-width: 380px) and (max-width: 600px) {
+    .wrapper button {
+      width: 80%;
+      border-radius: 35px;
+      padding: 15px;
+      border: none;
+    }
+
+    .wrapper img {
+        width: 100%;
+    }
+  }
 
 
 
@@ -20,6 +61,7 @@ body {
     justify-content: space-around;
     margin-top: 160px;
     flex-wrap: wrap;
+    box-sizing: border-box;
     
 }
 
@@ -64,6 +106,7 @@ body {
     border-radius: 12px;
     margin: 60px auto;
     align-items: center;
+    box-sizing: border-box;
 
 }
 
@@ -103,6 +146,7 @@ body {
     border-radius: 12px;
     margin: 60px auto;
     align-items: center;
+    box-sizing: border-box;
 
 }
 
@@ -136,6 +180,7 @@ body {
     border-radius: 12px;
     margin: 60px auto;
     align-items: center;
+    box-sizing: border-box;
 
 }
 
